@@ -1,0 +1,92 @@
+
+/* main */
+
+/* 見出しスタイル */
+.blueline{
+  border-top:3px solid #5b90bf;
+  border-bottom:3px solid #5b90bf;
+  height:60px;
+  position:relative;
+  text-align: center;
+}
+
+/* なぜposition　relativeとabsoluteが効いてないのだろう… */
+.blueline p{
+  position:absolute;
+  top:50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+  
+}
+
+.yumincho{
+  font-family: serif;
+}
+
+.bluefont{
+  color:#5b90bf;
+}
+
+.smallfont{
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.middlefont{
+  font-size:1.7em;
+  font-weight:500;
+}
+
+/* button */
+.bluebutton{
+  background-color:#1e73be;
+  color:white;
+  border-radius: 5px;
+  border-style: none;
+  width:200px;
+  height:55px;
+  
+}
+
+.bluebutton:hover{
+  background-color:#97acbf;
+}
+
+
+.charge_lists{
+  background-color: #003c77;
+}
+
+.strength{
+  background-color:#f4f7fb;
+}
+
+.customer_voice{
+  background-color:#ffedd3;
+}
+
+.kizi{
+  background-color:#EAEAEA;
+}
+
+.youtube{
+  background-color:#f6c8c5;
+}
+
+.srs{
+  background-color:#c1dde6;
+}
+
+.pickup{
+  background-color:#114778;
+}
+
+.index{
+  background-color:#2a79bf;
+}
+
+
+/* footer */
+footer{
+  background-color:#db044c;
+}
