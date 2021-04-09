@@ -5,11 +5,11 @@
 
 
 /* flexboxの効かせ方がわからない！ */
-div .box1{
+/* div .box1{
   display:flex;
-}
+} */
 
-div section{
+section{
   width:30%;
 }
 
@@ -73,6 +73,26 @@ div section{
   background-color:#97acbf;
 }
 
+.whitebutton{
+  background-color:white;
+  color:#707070;
+  border-style: none;
+  width:200px;
+  height:55px;
+  font-size:16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.whitebutton:hover{
+  background-color:#1E73BE;
+  color:white;
+}
+
+
+.adjust70{
+  width:70%;
+}
 
 .charge_lists{
   background-color: #003c77;
