@@ -4,103 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>税理士事務所のサイトのコピー</title>
-<!--   <link rel = "stylesheet" href = "test.css"> -->
+  <link rel = "stylesheet" href = "test.css">
   <link rel="stylesheet" href="https://toppyna-in-github.github.io/kadai1/test.css"/>
   
-  <style>
-/* main */
-
-/* 見出しスタイル */
-.blueline{
-  border-top:3px solid #5b90bf;
-  border-bottom:3px solid #5b90bf;
-  height:60px;
-  position:relative;
-  text-align: center;
-}
-
-/* なぜposition　relativeとabsoluteが効いてないのだろう… */
-.blueline p{
-  position:absolute;
-  top:50%;
-  -webkit-transform : translateY(-50%);
-  transform : translateY(-50%);
-  
-}
-
-.yumincho{
-  font-family: serif;
-}
-
-.bluefont{
-  color:#5b90bf;
-}
-
-.smallfont{
-  font-size: 1.3em;
-  font-weight: 500;
-}
-
-.middlefont{
-  font-size:1.7em;
-  font-weight:500;
-}
-
-/* button */
-.bluebutton{
-  background-color:#1e73be;
-  color:white;
-  border-radius: 5px;
-  border-style: none;
-  width:200px;
-  height:55px;
-  
-}
-
-.bluebutton:hover{
-  background-color:#97acbf;
-}
-
-
-.charge_lists{
-  background-color: #003c77;
-}
-
-.strength{
-  background-color:#f4f7fb;
-}
-
-.customer_voice{
-  background-color:#ffedd3;
-}
-
-.kizi{
-  background-color:#EAEAEA;
-}
-
-.youtube{
-  background-color:#f6c8c5;
-}
-
-.srs{
-  background-color:#c1dde6;
-}
-
-.pickup{
-  background-color:#114778;
-}
-
-.index{
-  background-color:#2a79bf;
-}
-
-
-/* footer */
-footer{
-  background-color:#db044c;
-}
-  </style>
-
 </head>
 <body>
   <header>
@@ -113,14 +19,14 @@ footer{
     
     <!-- menu -->
       <form>
-      <button>選ばれる理由</button>
-      <button>代表者ごあいさつ</button>
-      <button>事務所概要・アクセス</button>
-      <button>サービス紹介</button>
-      <button>料金案内</button>
-      <button>全記事一覧</button>
-      <button>お問い合わせ・ご依頼</button>
-      <button>相談予約</button>
+      <button class="bluebutton">選ばれる理由</button>
+      <button class="bluebutton">代表者ごあいさつ</button>
+      <button class="bluebutton">事務所概要・アクセス</button>
+      <button class="bluebutton">サービス紹介</button>
+      <button class="bluebutton">料金案内</button>
+      <button class="bluebutton">全記事一覧</button>
+      <button class="bluebutton">お問い合わせ・ご依頼</button>
+      <button class="bluebutton">相談予約</button>
       </form>
   </header>
 
@@ -130,29 +36,30 @@ footer{
       <form></form>
     
     <!-- サービス紹介 -->
-      <p>サービス紹介</p>
+      <p class = "yumincho middlefont">サービス紹介</p>
       <img><img><img><img><img><img>
 
     <!-- 課題解決 -->
-      <p>こんなことでお悩みではありませんか？</p>
+      <p class = "yumincho middlefont">こんなことでお悩みではありませんか？</p>
       <img><img>
     
+      <div class ="box1">
       <section>
-        <p>42年の実績</p>
+        <p class="blueline bluefont yumincho">42年の実績</p>
         <img>
         <p>代表税理士の秋山は、『税務調査官』としての４０年の実績から、相続・贈与を熟知しております。お気軽にどんなお悩みでもご相談下さい</p>
-        <button>代表プロフィール</button>
+        <button class="bluebutton">代表プロフィール</button>
       </section>
 
       <section>
-        <p>豊富な知識</p>
+        <p class="blueline bluefont yumincho">豊富な知識</p>
         <img>
         <p>お客様に対し、様々な節税方法や特例の利用をご提案した上で、一人一人に合った最適な申告・節税アドバイスを実行させて頂きます</p>
-        <button>当事務所の８つの強み</button>
+        <button class="bluebutton">当事務所の８つの強み</button>
       </section>
 
       <section>
-        <p>相談しやすい環境</p>
+        <p class="blueline bluefont yumincho">相談しやすい環境</p>
         <img>
         <ul>
           <li>姫路市役所から徒歩1分</li>
@@ -160,70 +67,71 @@ footer{
           <li>初回相談【無料】</li>
           <li>初回以降の相談も【90分無料】</li>
         </ul>
-        <button>事務所概要・アクセス</button>
+        <button class="bluebutton">事務所概要・アクセス</button>
       </section>
+      <div>
 
     <!-- 相談予約 -->
-      <p>秋山税理士事務所の初回相談風景</p>
+      <p class="blueline bluefont yumincho middlefont">秋山税理士事務所の初回相談風景</p>
       <!-- YouTube -->
       <img><img>
 
     <!-- お金の不安 -->
-      <p>こんな不安はありませんか？</p>
+      <p  class = "yumincho middlefont">こんな不安はありませんか？</p>
       <img>
       <!-- <img> transition -->
 
       <section>
-        <p>総遺産額の概算</p>
+        <p class="blueline bluefont yumincho">総遺産額の概算</p>
         <img>
         <p>相続財産の評価を数多く行ってきた経験から、初回のヒアリング時において高い精度で、ご家族の総遺産額・相続税額のご提示が可能です</p>
-        <button>総遺産額の把握方法</button>
+        <button class="bluebutton">総遺産額の把握方法</button>
       </section>
       
       <section>
-        <p>相続税が掛かるか</p>
+        <p class="blueline bluefont yumincho">相続税が掛かるか</p>
         <img>
         <p>おおよその財産額の下、相続税が掛かるかの判断をその場で行い、相続税が掛かる場合にはその納税額の概算をお答え致します</p>
-        <button>相続税が掛かるかの判断基準</button>
+        <button class="bluebutton">相続税が掛かるかの判断基準</button>
       </section>
 
       <section>
-        <p>当事務所への料金</p>
+        <p class="blueline bluefont yumincho">当事務所への料金</p>
         <img>
         <p>当事務所へお支払いいただく料金は全て分かり易く料金表に記載しておりますので、初回相談時に料金額のご提示が可能です</p>
-        <button>当事務所の料金表</button>
+        <button class="bluebutton">当事務所の料金表</button>
       </section>
 
       <img><img>
       <!-- LINE -->
 
     <!-- 手続き -->
-      <p>こんなことでお困りではありませんか？</p>
+      <p class = "yumincho middlefont">こんなことでお困りではありませんか？</p>
       <img><img>
 
       <section>
-        <p>どんな手続きが必要？</p>
+        <p class="blueline bluefont yumincho">どんな手続きが必要？</p>
         <img>
         <p>相続税の申告に必要な手続きに関しては、代表税理士が初回相談時から申告完了までの期間に逐次ご説明させて頂きますので、ご安心ください</p>
-        <button>相続税申告の手続きサポート</button>
+        <button class="bluebutton">相続税申告の手続きサポート</button>
       </section>
 
       <section>
-        <p>どんな物が相続財産？</p>
+        <p class="blueline bluefont yumincho">どんな物が相続財産？</p>
         <img>
         <p>税務調査官としての経験から適切なヒアリングを行い詳細な財産内容を解明しますので、財産の申告漏れの心配がございません</p>
-        <button>相続財産の把握方法</button>
+        <button class="bluebutton">相続財産の把握方法</button>
       </section>
 
       <section>
-        <p>財産の分け方は？</p>
+        <p class="blueline bluefont yumincho">財産の分け方は？</p>
         <img>
         <p>数多くの相続争いを見てきた経験から、将来の二次相続を見据えて相続争いの起こらない最適な分割方法をアドバイス致します</p>
-        <button>遺産分割協議の基本</button>
+        <button class="bluebutton">遺産分割協議の基本</button>
       </section>
 
       <section>
-        <p>相続の初回相談から申告書提出・納付までの流れ</p>
+        <p class="blueline bluefont smallfont">相続の初回相談から申告書提出・納付までの流れ</p>
         <img>
         <p>相続税が掛かる方が亡くなれば、相続が発生した日から１０か月以内に、相続税の申告と納税を行う必要があります。</p>
         <br>
@@ -232,21 +140,21 @@ footer{
         <p><img>間近に迫っている場合、</p>
         <span>優先して対応させて頂きますのでご安心下さい！</span>
         <!-- spanは太字にする箇所 -->
-        <button>詳しいサービスの流れはこちら</button>
+        <button class="bluebutton">詳しいサービスの流れはこちら</button>
 
         <form>
-        <p>【初回相談無料！土･日･祝日も営業！】</p>
+        <p class="navyfont middlefont"><b>【初回相談無料！土･日･祝日も営業！】</b></p>
         <img><img>
-        </form>>
+        </form>
       </section>
 
     <!-- 料金表 -->
       <section class = "charge_lists">
-        <p>当事務所の料金表</p>
+        <p class="blueline bluefont yumincho">当事務所の料金表</p>
         <!-- icon -->
-        <p>初回相談<span>無料！</span>>二回目以降の相談も<span>90分以内無料！</span></p>
+        <p><b>初回相談<big>無料！</big>二回目以降の相談も<big>90分以内無料！</big></p>
         <br>
-        <p>遺産分割協議書の作成  5万円（税込み）</p>
+        <p>遺産分割協議書の作成  <big>5</big>万円（税込み）</b></p>
         ＋
         <img>
         <p>（※上記は相続人が２人までの場合の料金です。３人目から1人あたり上記金額より５％加算。）</p>
@@ -256,42 +164,36 @@ footer{
         <br>
         <img>
 
-        <button>詳しい料金案内はこちら</button>
+        <button class="bluebutton">詳しい料金案内はこちら</button>
       </section>
 
     <!-- 強み -->
       <section class = "strength">
-        <p>私たちは、なぜお客様の悩みを解決できるのか。</p>
-        <p>秋山税理士事務所の</p>
-        <p>４つの強み</p>
+        <p class = "smallfont yumincho">私たちは、なぜお客様の悩みを解決できるのか。</p>
+        <p class = "middlefont yumincho">秋山税理士事務所の</p>
+        <p class = "middlefont yumincho"><big>４</big>つの強み</p>
         
         <section>
         <img>
-        <p>「元国税調査官」</p>
+        <p  class = "smallfont yumincho">「元国税調査官」</p>
         <p>  代表の秋山は､大阪国税局・税務署・国税不服審判所などの専門機関で40年以上、主に相続税を取り扱う資産課税部門で働いており、相続税に関する豊富な知識と経験があります。</p>
         </section>
 
         <section>
           <img>
-          <p>「元国税調査官」</p>
-          <p>  代表の秋山は､大阪国税局・税務署・国税不服審判所などの専門機関で40年以上、主に相続税を取り扱う資産課税部門で働いており、相続税に関する豊富な知識と経験があります。</p>
-          </section>
-
-        <section>
-          <img>
-          <p>「相談実績5,000件以上」</p>
+          <p  class = "smallfont yumincho">「相談実績5,000件以上」</p>
           <p>  現役時代に、相続税に関する相談を約5,000件受けてきた経験から、お客様のあらゆるお悩みに対して的確な解決策を提案できます。</p>
         </section>
 
         <section>
           <img>
-          <p>「調査官目線で作る申告書」</p>
+          <p class = "smallfont yumincho">「調査官目線で作る申告書」</p>
           <p>税務調査官時代は、相続税の調査を約500件、調査対象にするか・しないかの判断を約20,000件行ってきました。<br>その経験から、税務調査を受けにくい申告書の作成が可能です。</p>
         </section>
 
         <section>
           <img>
-          <p>「調査立会もお任せください」</p>
+          <p class = "smallfont yumincho">「調査立会もお任せください」</p>
           <p>元調査官としての経験・税理士としての経験をもとに、税務調査を受けた場合でも、お客様の時間面での負担・精神面での負担・税金面での負担を最小限に抑えることが可能です。</p>
         </section>
 
@@ -300,15 +202,15 @@ footer{
       
 
     <!-- 比較 -->
-      <p>秋山税理士事務所と他事務所との比較</p>
-      <p>相続税の申告における
+      <p class = "middlefont yumincho">秋山税理士事務所と他事務所との比較</p>
+      <p class="blueline bluefont yumincho smallfont">相続税の申告における
         知識と経験</p>
       <img>
-      <p>相続税申告における
+      <p class="blueline bluefont yumincho smallfont">相続税申告における
         お客様ニーズへの対応力</p>
       <img>
       <form>
-        <p>【初回相談無料！土･日･祝日も営業！】</p>
+        <p class="navyfont middlefont"><b>【初回相談無料！土･日･祝日も営業！】</b></p>
         <img>
       </form>
 
@@ -316,13 +218,13 @@ footer{
       <section class = "customer_voice">
         <p>当事務所にご依頼を頂いたお客様の声</p>
         <img><img><img>
-        <button>過去のお客様の声はこちら</button>
+        <button class="bluebutton">過去のお客様の声はこちら</button>
       </section>
 
     <!-- メディア情報 -->
       <section>
         <section>
-          <p>メディア情報</p>
+          <p class = "yumincho middlefont">メディア情報</p>
           <p>当事務所代表の秋山は、税務調査官時代に体験した出来事を纏めた自著「間違いだらけの相続税対策」の出版をはじめ、雑誌・WEBメディアなど数々の取材を受けております。</p>
 
         <!-- 雑誌スクロール -->
@@ -331,7 +233,7 @@ footer{
 
         <!-- 本アイコン -->
         <section>
-        <p>間違いだらけの相続税対策</p>
+        <p class = "yumincho smallfont">間違いだらけの相続税対策</p>
         <img>
 
           <p>発売日　：　平成28年3月3日　発売</p>
@@ -348,12 +250,12 @@ footer{
           是非一度お手に取って頂ければ幸いです。
           <a>Amazonでのご購入はこちら</a>
         </section>
-        <button>メディア情報について詳しくはこちら</button>
+        <button class="bluebutton">メディア情報について詳しくはこちら</button>
       </section>
 
     <!-- 記事 -->
       <section class = "kizi">
-        <p>相続・贈与に関するお役立ち情報を記事で紹介</p>
+        <p class = "yumincho smallfont">相続・贈与に関するお役立ち情報を記事で紹介</p>
 
         <!-- 記事スクロール -->
         <img><img><img><img><img><img><img><img><img><img>
@@ -366,14 +268,14 @@ footer{
         <p><img>元税務調査官が解説する<span>調査の手法</span></p>
         <p><img>調査に選ばれない為の<span>申告書の書き方</span>など、</p>
 
-        <p><span>沢山のお役立ち情報を投稿しておりますので、</span><br>是非ご覧になって頂けると幸いです。</p>
+        <p><span><font color = "#cf5959">沢山のお役立ち情報を投稿しておりますので、</font></span><br>是非ご覧になって頂けると幸いです。</p>
 
-        <button>全記事一覧はこちら</button>
+        <button class="bluebutton">全記事一覧はこちら</button>
       </section>
 
     <!-- YouTube -->
       <section class = "youtube">
-        <p><img>相続・贈与に関するお役立ち情報を動画で紹介</p>
+        <p class = "yumincho smallfont"><img>相続・贈与に関するお役立ち情報を動画で紹介</p>
         <img>
         <p>秋山税理士事務所では</p>
         <p><img>相続・贈与の<soan>お役立ち情報<span>や<span>節税情報</span></p>
@@ -385,18 +287,18 @@ footer{
 
         <p>是非チャンネル登録をして動画を待って頂けると幸いです。</p>
 
-        <button>【相続専門チャンネル】秋山税理士事務所はこちら</button>
+        <button class="bluebutton">【相続専門チャンネル】秋山税理士事務所はこちら</button>
       </section>
 
     <!-- SRSとは -->
       <section class = "srs">
-        <p>相続・贈与のお悩み全国どこでも自宅にいながら解決します</p>
+        <p class = "yumincho smallfont">相続・贈与のお悩み全国どこでも自宅にいながら解決します</p>
         <img>
-        <p>SRS（相続 遠隔サービス）とは、</p>
+        <p class ="smallfont"><span>SRS（相続 遠隔サービス）とは、</span></p>
         <ul>
           <li>専門家の事務所を訪問しなくても</li>
           <li>車やバスなどの移動手段を確保しなくても</li>
-          <li>自宅にいながらにして</li>
+          <li><b><font color ="#d16060">自宅にいながらにして</font></b></li>
         </ul>
 
         <section>
@@ -405,17 +307,17 @@ footer{
           <p><img>相続税申告書の作成、提出などを、</p>
         </section>
 
-        <p><span>パソコン1台で全て解決させて頂く</span>サービスです。</p>
+        <p><span class ="smallfont"><b><font color ="#666699">パソコン1台で全て解決させて頂く</b></span>サービスです。</p>
 
         <!-- YouTube差し込み -->
 
-        <button>詳細はこちら</button>
+        <button class="bluebutton">詳細はこちら</button>
       </section>
 
     <!-- Notes -->
       
       <section>
-        <p>【初回相談無料！土･日･祝日も営業！】</p>
+        <p class="navyfont middlefont"><b>【初回相談無料！土･日･祝日も営業！】</b></p>
         <form>
         <img>
         <img><img>
@@ -423,7 +325,7 @@ footer{
       </section>
 
       <section>
-        <p>よくある質問</p>
+        <p class="blueline bluefont smallfont">よくある質問</p>
         <img>
         <ul>
           <img><li>家族の遺産に対して相続税が掛かるかどうかが判断出来ません、どうすればよいでしょう？</li>
@@ -435,11 +337,11 @@ footer{
 
         <p>等の、皆様が相続・贈与で感じる不安や疑問をQ&A方式でお答えしております。</p>
 
-        <button>詳細はこちら</button>
+        <button class="bluebutton">詳細はこちら</button>
       </section>
       
       <section>
-        <p>相続の一般的な流れ</p>
+        <p class="blueline bluefont yumincho">相続の一般的な流れ</p>
         <img>
         <p>相続税の基礎控除を超える財産がある方が亡くなられた場合、相続税の申告期限は<span>亡くなられた日から10ケ月以内</span>>にしなければいけません。<br>
 
@@ -447,7 +349,7 @@ footer{
           
           <span>あなたは今から何をしないといけないのか</span>、是非ご自身の状況をチェックしてみて下さい。</p>
 
-          <button>詳細はこちら</button>
+          <button class="bluebutton">詳細はこちら</button>
       </section>
       
       <section>
@@ -465,8 +367,8 @@ footer{
       <p>電話受付：8:00～18:00</p>
       <p>営業日：火曜日～日曜日&nbsp;(月曜定休日)&nbsp;&nbsp;※祝日の場合は営業</p>
 
-      <button>メールでのお問い合わせはこちら</button>
-      <button>相談予約はこちら</button>
+      <button class="bluebutton">メールでのお問い合わせはこちら</button>
+      <button class="bluebutton">相談予約はこちら</button>
       </section>
 
     <!-- index -->

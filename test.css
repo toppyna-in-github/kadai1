@@ -2,12 +2,26 @@
 /* main */
 
 /* 見出しスタイル */
+
+
+/* flexboxの効かせ方がわからない！ */
+div .box1{
+  display:flex;
+}
+
+div section{
+  width:30%;
+}
+
+
+
 .blueline{
   border-top:3px solid #5b90bf;
   border-bottom:3px solid #5b90bf;
   height:60px;
   position:relative;
   text-align: center;
+
 }
 
 /* なぜposition　relativeとabsoluteが効いてないのだろう… */
@@ -27,6 +41,10 @@
   color:#5b90bf;
 }
 
+.navyfont{
+  color:#114778;
+}
+
 .smallfont{
   font-size: 1.3em;
   font-weight: 500;
@@ -37,6 +55,7 @@
   font-weight:500;
 }
 
+
 /* button */
 .bluebutton{
   background-color:#1e73be;
@@ -45,7 +64,9 @@
   border-style: none;
   width:200px;
   height:55px;
-  
+  font-size:16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
 }
 
 .bluebutton:hover{
@@ -55,6 +76,7 @@
 
 .charge_lists{
   background-color: #003c77;
+  color:white;
 }
 
 .strength{
@@ -85,6 +107,11 @@
   background-color:#2a79bf;
 }
 
+
+/* 文スタイル */
+span{
+  font-weight:bold;
+}
 
 /* footer */
 footer{
