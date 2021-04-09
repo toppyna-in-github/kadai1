@@ -99,6 +99,10 @@ section{
   color:white;
 }
 
+  .whitebox{
+    background-color: white;
+  }
+
 .strength{
   background-color:#f4f7fb;
 }
