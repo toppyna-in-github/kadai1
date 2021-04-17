@@ -10,7 +10,7 @@
 } */
 
 section{
-  width:30%;
+  width:20%;
 }
 
 
@@ -19,27 +19,24 @@ section{
   border-top:3px solid #5b90bf;
   border-bottom:3px solid #5b90bf;
   height:60px;
+  width:290px;
   position:relative;
-  text-align: center;
-
+  margin:10px;
 }
 
-/* なぜposition　relativeとabsoluteが効いてないのだろう… */
-.blueline p{
+.bluefont{
+  color:#5b90bf;
   position:absolute;
   top:50%;
-  -webkit-transform : translateY(-50%);
-  transform : translateY(-50%);
-  
+  left:50%;
+  transform:translate(-50%,-50%);
 }
 
 .yumincho{
   font-family: serif;
 }
 
-.bluefont{
-  color:#5b90bf;
-}
+
 
 .navyfont{
   color:#114778;
@@ -91,8 +88,16 @@ section{
 
 
 .adjust70{
-  width:70%;
+  /* width:70%; */
+  width:900px;
+  height:60px;
 }
+
+img.menuicon{
+  width:32px;
+  height:32px;
+}
+
 
 .charge_lists{
   background-color: #003c77;
@@ -141,3 +146,50 @@ span{
 footer{
   background-color:#db044c;
 }
+
+/*  */
+
+
+
+/* レイアウト */
+
+
+/* header {
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* ??? */
+/* /* } */
+
+
+
+.lists{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+
+.lists section{
+  width:20%;
+  height:600px;
+  padding:20px;
+} 
+
+.sentence{
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+/* .lists img{
+  width:290px;
+  height:190px;
+} */
+
+body{
+  overflow-x: hidden;
+  margin:auto;
+  text-align:center;
+  max-width: 100%;
+}
+
+
